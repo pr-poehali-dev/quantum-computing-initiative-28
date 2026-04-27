@@ -4,9 +4,9 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "BMW 5 серии — спортивный выхлоп",
-    category: "Изготовление под заказ",
-    location: "Нержавеющая сталь, прямоточный",
+    title: "Nissan Murano z50 — замена фланцевого соединения",
+    category: "",
+    location: "",
     year: "2024",
     image: "https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/bucket/5b214eda-a02f-4625-91a6-dfa84978c89b.jpeg",
   },
