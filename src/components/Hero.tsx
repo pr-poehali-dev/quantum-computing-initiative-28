@@ -137,7 +137,7 @@ export function Hero() {
           transformStyle: "preserve-3d",
         }}
       >
-        <div className="mb-72 md:mb-60 lg:mb-80">
+        <div className="mb-72 md:mb-60 lg:mb-80 mt-24 md:mt-32">
           <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Мастерская по ремонту выхлопных систем"}</p>
 
           <h1
