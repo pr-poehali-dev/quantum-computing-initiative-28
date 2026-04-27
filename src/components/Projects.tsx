@@ -112,7 +112,7 @@ export function Projects() {
                     {project.category} · {project.location}
                   </p>
                 </div>
-                <span className="text-muted-foreground/60 text-sm">{project.year}</span>
+
               </div>
             </article>
           ))}
