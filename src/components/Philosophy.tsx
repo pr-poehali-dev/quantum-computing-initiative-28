@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Диагностика до рублевой копейки",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Сначала смотрим и объясняем — что сломалось, почему и сколько стоит. Никаких скрытых работ. Вы соглашаетесь только на то, что понимаете.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Качественные материалы",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Используем сертифицированные трубы, хомуты и глушители от проверенных поставщиков. Дешёвые запчасти — это повторный ремонт через полгода. Мы так не работаем.",
   },
   {
-    title: "Естественная динамика",
+    title: "Работа без переделок",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Делаем правильно с первого раза. Сварка держит, соединения не текут, шумы не возвращаются. Если что-то не так — устраним бесплатно.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Уважение к вашему времени",
+    description: "Большинство работ выполняем за 1–3 часа. Вы можете подождать прямо в мастерской или оставить авто и забрать когда удобно.",
   },
 ]
 
@@ -51,28 +51,26 @@ export function Philosophy() {
     <section id="about" className="py-32 md:py-29">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
-          {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наш подход</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Ремонт с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>гарантией</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
               <img
-                src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
-                className="opacity-90 relative z-10 w-auto"
+                src="https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/files/62d50cfd-a529-4679-a269-41708f9b9034.jpg"
+                alt="Сварка выхлопной трубы"
+                className="opacity-90 relative z-10 w-auto rounded"
               />
             </div>
           </div>
 
-          {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Выхлопная система — это лёгкие вашего автомобиля. Мы восстанавливаем её работу так, чтобы двигатель дышал свободно, а в салоне было тихо.
             </p>
 
             {philosophyItems.map((item, index) => (

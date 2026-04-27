@@ -120,8 +120,8 @@ export function Hero() {
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hously-background.png"
-          alt="Минималистичный архитектурный интерьер"
+          src="https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/files/8e501af0-6b85-4e66-be53-1674c38ade7a.jpg"
+          alt="Мастерская по ремонту выхлопных систем"
           className="w-full h-full object-cover object-center"
         />
       </div>
@@ -137,15 +137,15 @@ export function Hero() {
         }}
       >
         <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Архитектурная студия"}</p>
+          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Мастерская выхлопных систем"}</p>
 
           <h1
             ref={titleRef}
             className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
           >
-            {"Создаем пространства"}
+            {"Ваш автомобиль"}
             <br />
-            <span className="text-orange-200">{"для жизни"}</span>
+            <span className="text-orange-200">{"дышит правильно"}</span>
           </h1>
         </div>
       </div>

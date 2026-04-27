@@ -1,30 +1,27 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
+import Icon from "@/components/ui/icon"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
-    icon: Home,
+    title: "Замена и ремонт глушителей",
+    description: "Устраняем шум и восстанавливаем тягу. Работаем со всеми типами глушителей — от бюджетных до спортивных прямоточных систем.",
+    icon: "Wrench",
   },
   {
-    title: "Коммерческие объекты",
-    description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+    title: "Сварка выхлопных труб",
+    description: "Профессиональная сварка нержавеющей стали и чёрного металла. Устраняем трещины, прогары и коррозию в любом месте выхлопного тракта.",
+    icon: "Flame",
   },
   {
-    title: "Дизайн интерьеров",
-    description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+    title: "Катализаторы и сажевые фильтры",
+    description: "Замена, чистка и диагностика катализаторов и DPF-фильтров. Убираем ошибки двигателя и восстанавливаем нормальную работу системы.",
+    icon: "ShieldCheck",
   },
   {
-    title: "Градостроительство",
-    description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+    title: "Изготовление под заказ",
+    description: "Делаем нестандартные выхлопные системы по вашим параметрам: спортивные, тихие, спрятанные — любой конфигурации для любого авто.",
+    icon: "Settings",
   },
 ]
 
@@ -64,13 +61,12 @@ export function Expertise() {
             практикой
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            Более 10 лет ремонтируем выхлопные системы любой сложности. Каждый автомобиль получает индивидуальный подход и гарантию на работу.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-16">
           {expertiseAreas.map((area, index) => {
-            const Icon = area.icon
             return (
               <div
                 key={area.title}
@@ -91,7 +87,7 @@ export function Expertise() {
                     transitionDelay: `${index * 150}ms`,
                   }}
                 >
-                  <Icon className="w-10 h-10 mb-4 text-foreground" strokeWidth={1.25} />
+                  <Icon name={area.icon} fallback="Wrench" className="w-10 h-10 mb-4 text-foreground" strokeWidth={1.25} />
                 </div>
                 <h3 className="text-xl font-medium mb-4">{area.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{area.description}</p>
