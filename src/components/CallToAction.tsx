@@ -30,7 +30,7 @@ export function CallToAction() {
               href="https://wa.me/74951234567"
               className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
             >
-              Написать в WhatsApp
+              Написать в MAX
             </a>
           </div>
         </div>
