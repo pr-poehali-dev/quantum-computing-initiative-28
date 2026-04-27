@@ -9,9 +9,9 @@ export function CallToAction() {
           <p className="text-primary-foreground/60 text-sm tracking-[0.3em] uppercase mb-8">Записаться на ремонт</p>
 
           <h2 className="text-3xl md:text-4xl lg:text-6xl font-medium leading-[1.1] tracking-tight mb-8 text-balance">
-            Шумит, дымит или
+            Рычит, стучит или
             <br />
-            <HighlightedText>пахнет выхлопом?</HighlightedText>
+            <HighlightedText>пахнет выхлопом в салоне?</HighlightedText>
           </h2>
 
           <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">
