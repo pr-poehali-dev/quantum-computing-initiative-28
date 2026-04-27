@@ -8,7 +8,7 @@ const projects = [
     category: "Изготовление под заказ",
     location: "Нержавеющая сталь, прямоточный",
     year: "2024",
-    image: "https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/files/60402de9-047f-456b-929e-191cdcb4a713.jpg",
+    image: "https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/bucket/5b214eda-a02f-4625-91a6-dfa84978c89b.jpeg",
   },
   {
     id: 2,
