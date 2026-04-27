@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <span className="text-xl font-medium tracking-tight">ВыхлопМастер</span>
+              <span className="text-xl font-medium tracking-tight">ПроВыхлоп</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Мастерская по ремонту выхлопных систем. Работаем быстро, честно и с гарантией на все виды работ.
@@ -66,7 +66,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 ВыхлопМастер. Все права защищены.</p>
+          <p>© 2025 ПроВыхлоп. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
