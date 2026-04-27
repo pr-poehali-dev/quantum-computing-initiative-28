@@ -63,7 +63,7 @@ export function Philosophy() {
               <img
                 src="https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/bucket/20638d67-6ffc-4dda-a243-ff3300cc6f3f.jpeg"
                 alt="ПроВыхлоп — мастерская по ремонту выхлопных систем"
-                className="opacity-90 relative z-10 w-auto rounded scale-[2]"
+                className="opacity-90 relative z-10 w-full rounded"
               />
             </div>
           </div>
