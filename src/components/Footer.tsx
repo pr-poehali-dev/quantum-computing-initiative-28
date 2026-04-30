@@ -10,6 +10,7 @@ export function Footer() {
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Мастерская по ремонту выхлопных систем. Работаем быстро, честно и с гарантией на все виды работ.
             </p>
+            <p className="text-muted-foreground text-sm mt-3">Город Мурманск</p>
           </div>
 
           <div>
