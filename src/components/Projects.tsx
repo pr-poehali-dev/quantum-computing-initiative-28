@@ -8,7 +8,7 @@ const projects = [
     category: "",
     location: "",
     year: "2024",
-    image: "https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/bucket/4d2faea1-365d-4843-8c43-71313fc16bbc.jpg",
+    image: "https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/bucket/d6b5d806-5eb7-408c-94fb-9827d2c01b2f.jpeg",
   },
   {
     id: 2,
