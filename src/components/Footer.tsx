@@ -51,16 +51,7 @@ export function Footer() {
                   deax2017@yandex.ru
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Телеграм
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  WhatsApp
-                </a>
-              </li>
+
             </ul>
           </div>
         </div>
