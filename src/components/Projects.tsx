@@ -28,9 +28,9 @@ const projects = [
   },
   {
     id: 4,
-    title: "Kia Sportage — замена DPF-фильтра",
-    category: "Сажевый фильтр",
-    location: "Диагностика + замена",
+    title: "Subaru Outback BP - замена кронштейна глушителя",
+    category: "",
+    location: "",
     year: "2024",
     image: "https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/bucket/e5799cea-9cb4-4e9a-b1cd-029954fff2f2.jpeg",
   },
