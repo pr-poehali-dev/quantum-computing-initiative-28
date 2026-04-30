@@ -57,7 +57,7 @@ export function Header() {
         </ul>
 
         <div className="hidden md:flex items-center gap-4">
-          <a href="tel:+79021327779" className="text-white text-sm font-medium tracking-wide hover:opacity-80 transition-opacity">
+          <a href="tel:+79021327779" className="text-white text-xl font-medium tracking-wide hover:opacity-80 transition-opacity">
             +7 (902) 132-77-79
           </a>
           <a
