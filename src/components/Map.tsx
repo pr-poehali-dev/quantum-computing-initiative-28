@@ -16,7 +16,7 @@ export function Map() {
         </div>
         <div className="w-full h-[400px] rounded-lg overflow-hidden">
           <iframe
-            src="https://yandex.ru/map-widget/v1/?text=Мурманск%2C%20ул.%20Шабалина%2014&z=16"
+            src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=72214834079"
             width="100%"
             height="100%"
             frameBorder="0"
