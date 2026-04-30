@@ -24,7 +24,7 @@ const projects = [
     category: "Сварка и ремонт",
     location: "Черный металл + хомуты",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/f962568d-c5ff-4b77-995c-c770a5661c80/bucket/7bb12897-13d1-4983-8d3d-158704f406e5.jpg",
   },
   {
     id: 4,
