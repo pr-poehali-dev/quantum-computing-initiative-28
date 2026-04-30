@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Nissan Xtrail - удаление катализатора",
+    title: "Nissan Xtrail T31 - удаление катализатора",
     category: "",
     location: "",
     year: "2024",
