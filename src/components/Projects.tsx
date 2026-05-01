@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Nissan Xtrail T31 - удаление катализатора",
+    title: "Renault Duster - замена гофры",
     category: "",
     location: "",
     year: "2024",
