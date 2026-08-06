@@ -28,7 +28,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Subaru Outback BP - замена кронштейна глушителя",
+    title: "Jeep Grand Cherokee WJ - замена глушителя",
     category: "",
     location: "",
     year: "2024",
